@@ -1,4 +1,4 @@
-# const and "&" usage 
+3 Const and "&" usage
 # Const keyword in C++
 - It stands for *constant*
 - Generally in c++ its used to make the values of variables unchangeable through the entire program.
@@ -36,21 +36,21 @@
     
 3. Function Arguments: 
 - We can't pass const argumant value to non-const parameter of a function.
-1. We can declare the parameter of a function by const:
+    1. We can declare the parameter of a function by const:
 ```  
    functype funcName(const datatype var)
    ```
 - And the values of 'var' can't be changed.
-2. We can declare the return type of a function by const:  
+   2. We can declare the return type of a function by const:  
   ```
   const returntype funcName(datatype var)
   ```
-  - There is no problem on passing const or non- const variable to the function, the returned value is const.
-3. For both const parameter and return type together
-```
+   - There is no problem on passing const or non- const variable to the function, the returned value is const.
+   3. For both const parameter and return type together
+   ```
       const returntype funcName(const datatype var)
-  ``` 
-  - We can pass const or non-const to the function but we can't change the value in 'var' afterwards.
+   ``` 
+    - We can pass const or non-const to the function but we can't change the value in 'var' afterwards.
 
 4. Constant Objects of a Class:
 - Once the object is declared as *const* it needs to be initialized with ONLY constructors at the same time and can't be modified, can only call on const member function.
@@ -103,3 +103,4 @@ if(b%2==0 && a>c){ //the result is false because a is not bigger than c.
   int* ptr=&A; // where * is indirection operator.
   cout<<&A;
   ```
+  
