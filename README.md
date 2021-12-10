@@ -62,11 +62,11 @@
 5. Constant function of a Class: 
 - Const function can be called on const or non-const objects.
 - There are *2 ways* for declaring;
-  1. ordinary declaration:
+   1. ordinary declaration:
    ```
     const void funcName(){}
   ```
-  2. const member function of the class:
+   2. const member function of the class:
    ```
      class{
        void funcName() const{
