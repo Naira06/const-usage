@@ -1,4 +1,4 @@
-
+# const and "&" usage 
 # Const keyword in C++
 - It stands for *constant*
 - Generally in c++ its used to make the values of variables unchangeable through the entire program.
