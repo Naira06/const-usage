@@ -13,7 +13,7 @@
  
 2. Using *const* with pointers *3 ways*:
    - It must be initialized once declared as *const*.
-   1. Constant Pointer Variable to Value:
+    1. Constant Pointer Variable to Value:
     ``` 
      char z= 'v';
      char* const i = &z;
@@ -82,13 +82,13 @@
 - It's used as an *Operator*
 - Used in only 3 different places:
 1. Bitwise AND (Binary operator):
-- It work as AND gate comparing each bit of the operands, if both bits is 1 the bit is set to 1 otherwise it's set to 0.
+ - It work as AND gate comparing each bit of the operands, if both bits is 1 the bit is set to 1 otherwise it's set to 0.
 ```
 int a= 5, b=9; // 5= 0101 , 9=1001
 cout<<(a&b);  // the result is 0001 so output is 1.
 ```
 2. Logical AND :
-- It's used to check conditions (boolean), if all conditions are ture the result is true otherwise is false.
+ - It's used to check conditions (boolean), if all conditions are ture the result is true otherwise is false.
 ```
 int a=5;
 int b=10;
@@ -98,8 +98,8 @@ if(b%2==0 && a>c){ //the result is false because a is not bigger than c.
 }
 ``` 
 3. Pointer Address Operator:
-- Its used to get the address of a variable, then we can store it in pointer or print it.
-- ```
+ - Its used to get the address of a variable, then we can store it in pointer or print it.
+ - ```
   int A= 8;
   int* ptr=&A; // where * is indirection operator.
   cout<<&A;
