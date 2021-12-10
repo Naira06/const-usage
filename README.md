@@ -41,12 +41,12 @@
    functype funcName(const datatype var)
    ```
 - And the values of 'var' can't be changed.
-   2. We can declare the return type of a function by const:  
+    2. We can declare the return type of a function by const:  
   ```
   const returntype funcName(datatype var)
   ```
    - There is no problem on passing const or non- const variable to the function, the returned value is const.
-   3. For both const parameter and return type together
+    3. For both const parameter and return type together
    ```
       const returntype funcName(const datatype var)
    ``` 
