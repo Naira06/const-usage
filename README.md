@@ -88,7 +88,7 @@ int a= 5, b=9; // 5= 0101 , 9=1001
 cout<<(a&b);  // the result is 0001 so output is 1.
 ```
 2. Logical AND :
- - It's used to check conditions (boolean), if all conditions are ture the result is true otherwise is false.
+- It's used to check conditions (boolean), if all conditions are ture the result is true otherwise is false.
 ```
 int a=5;
 int b=10;
@@ -98,8 +98,8 @@ if(b%2==0 && a>c){ //the result is false because a is not bigger than c.
 }
 ``` 
 3. Pointer Address Operator:
- - Its used to get the address of a variable, then we can store it in pointer or print it.
- - ```
+- Its used to get the address of a variable, then we can store it in pointer or print it.
+- ```
   int A= 8;
   int* ptr=&A; // where * is indirection operator.
   cout<<&A;
